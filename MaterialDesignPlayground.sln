@@ -5,9 +5,9 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialDesignPlayground", "MaterialDesignPlayground\MaterialDesignPlayground.csproj", "{A9FADFC6-6B74-43C8-89AD-F33B9318C288}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialDesignThemes.Wpf", "..\..\Git\MaterialDesignInXamlToolkit\MaterialDesignThemes.Wpf\MaterialDesignThemes.Wpf.csproj", "{F079FB0A-A8ED-4216-B6A5-345756751A04}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialDesignThemes.Wpf", "MaterialDesignThemes.Wpf\MaterialDesignThemes.Wpf.csproj", "{F079FB0A-A8ED-4216-B6A5-345756751A04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialDesignColors.Wpf", "..\..\Git\MaterialDesignInXamlToolkit\MaterialDesignColors.Wpf\MaterialDesignColors.Wpf.csproj", "{90B53209-C60C-4655-B28D-A1B3E1044BA3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialDesignColors.Wpf", "MaterialDesignColors.Wpf\MaterialDesignColors.Wpf.csproj", "{90B53209-C60C-4655-B28D-A1B3E1044BA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

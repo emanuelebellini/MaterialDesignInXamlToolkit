@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialDesignThemes.Wpf", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialDesignColors.Wpf", "MaterialDesignColors.Wpf\MaterialDesignColors.Wpf.csproj", "{90B53209-C60C-4655-B28D-A1B3E1044BA3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFullScreenDialog", "SimpleFullScreenDialog\SimpleFullScreenDialog.csproj", "{CB0ED859-3ED0-4103-8421-D78495955703}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		AppVeyor|Any CPU = AppVeyor|Any CPU
@@ -34,6 +36,12 @@ Global
 		{90B53209-C60C-4655-B28D-A1B3E1044BA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90B53209-C60C-4655-B28D-A1B3E1044BA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90B53209-C60C-4655-B28D-A1B3E1044BA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB0ED859-3ED0-4103-8421-D78495955703}.AppVeyor|Any CPU.ActiveCfg = Release|Any CPU
+		{CB0ED859-3ED0-4103-8421-D78495955703}.AppVeyor|Any CPU.Build.0 = Release|Any CPU
+		{CB0ED859-3ED0-4103-8421-D78495955703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB0ED859-3ED0-4103-8421-D78495955703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB0ED859-3ED0-4103-8421-D78495955703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB0ED859-3ED0-4103-8421-D78495955703}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

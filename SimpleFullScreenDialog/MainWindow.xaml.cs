@@ -28,10 +28,12 @@ namespace SimpleFullScreenDialog
 
         private async void Button_Click(object sender, RoutedEventArgs e)
         {
-            var view = new Rectangle() { Fill = Brushes.White, VerticalAlignment = VerticalAlignment.Stretch, HorizontalAlignment = HorizontalAlignment.Stretch };
+            //Setting a relative sizing doesn't work
+            //var view = new Rectangle() { Fill = Brushes.White, VerticalAlignment = VerticalAlignment.Stretch, HorizontalAlignment = HorizontalAlignment.Stretch };
+            var view = new Rectangle() { Fill = Brushes.White};
             //If I set the size, I'll get the rectangle, but smaller in height.
-            //view.Height = 1080;
-            //view.Width = 1920;
+            view.Width = SystemParameters.PrimaryScreenWidth;       //1920 for my FHD monitor
+            view.Height = SystemParameters.PrimaryScreenHeight;     //1080
             await DialogHost.Show(view, "RootDialog");
         }
     }

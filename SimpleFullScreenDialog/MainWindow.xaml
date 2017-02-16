@@ -15,9 +15,10 @@
         Background="{DynamicResource MaterialDesignPaper}"
         FontFamily="{DynamicResource MaterialDesignFont}"
         WindowStyle="None" ResizeMode="NoResize" WindowState="Maximized">
-    <Grid>
-        <materialDesign:DialogHost Identifier="RootDialog" DialogMargin="0">
+    <materialDesign:DialogHost Identifier="RootDialog" DialogMargin="0">
+        <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <Rectangle Fill="Black" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
             <Button Click="Button_Click" />
-        </materialDesign:DialogHost>
-    </Grid>
+        </Grid>
+    </materialDesign:DialogHost>
 </Window>
